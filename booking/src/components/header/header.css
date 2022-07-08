@@ -1,0 +1,86 @@
+.header{
+    background-color: #003580;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.headerListItem{
+    display: flex;
+    gap: 15px;
+}
+.headerListItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerTitle{
+ 
+}
+
+.headerDesc{
+ margin: 20px 0px;
+}
+.headerBtn{
+background-color: #0071c2;
+color: white;
+font-weight: 500;
+border: none;
+padding: 10px;
+cursor: pointer;
+
+}
+
+/* ======================= */
+/* Search Bar styles */
+/* ======================== */
+
+.headerSearch{
+height: 30px;
+border: 3px #fafa28 solid;
+background: white;
+display: flex;
+color: #003580;
+align-items: center;
+justify-content: space-between;
+padding: 25px 5px;
+border-radius: 5px;
+position: absolute;
+bottom: -25px;
+width: 100%;
+max-width: 1024px;
+}
+
+.headerIcon{
+    color: #c8c1c1;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    outline: none;
+    border: none;
+}
+.headerSearchText{
+    color:#c8c1c1; ;
+}
